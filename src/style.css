@@ -5,3 +5,10 @@
 body{
   font-family: 'Montserrat',sans-serif;
 }
+.slide{
+  opacity: 0;
+}
+.slide.current{
+  opacity: 1;
+  transition: opacity 4.0s ease-in-out;
+}
